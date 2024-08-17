@@ -119,7 +119,7 @@
 7. chai.find() // yeh position batega jaha par woh word ya character present hai aur nhi mila toh -1.
 8. chai.count() // kisi word k count ko dega string say.
 9. chai.format() // isme hum ek sentence mai dynamic value aur type dalwa skte hai jaise for example: I ordered {} cups of {} chai. yha par value assign ho jaegi using this aur, isko {} placeholder bolte hai.
-
+10. chai .len // to find the length of string.
 
 
     

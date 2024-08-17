@@ -56,4 +56,13 @@ print(sentence.format(quantity,order_type)) # working cool :)
 
 # "".join method to convert a list to a String.
 list_fchai= ["masala", "ginger", "elaichi"]
-print("-".join(list_fchai))
+print("-".join(list_fchai)) 
+
+#to find the length of the string
+print(len(order_type))
+
+#Raw String
+binaraw_String= "masala\nchai"
+print(binaraw_String) # alag alag line mai print hoga
+withraw_String =r"masala\nchai"
+print(withraw_String)
