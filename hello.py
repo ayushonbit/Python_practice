@@ -66,3 +66,28 @@ binaraw_String= "masala\nchai"
 print(binaraw_String) # alag alag line mai print hoga
 withraw_String =r"masala\nchai"
 print(withraw_String)
+
+# LIST
+
+tea_var= ["Green","Black","Oolong","White"]
+print(tea_var)
+
+tea_var[0:2]=["Elaichi","Adrak"]
+print(tea_var)
+
+tea_var[1:1]= ["test", "test"] 
+print(tea_var)
+
+tea_var.append("oolong")
+print(tea_var)
+
+print(tea_var.pop()) #POP method jo last ka element return krdega 
+print(tea_var) #hogya last wala remove
+
+##Agar humko koi specific elemrnt nikalna ho to remove() method use hoga
+tea_var.remove("White") #green ko remove krdega yeh jo 0th index pe hai.
+print(tea_var)
+
+## Square nums dekhte hai 
+square_nums = [x**2 for x in range(10)]
+print(square_nums)

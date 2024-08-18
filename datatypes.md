@@ -120,6 +120,102 @@
 8. chai.count() // kisi word k count ko dega string say.
 9. chai.format() // isme hum ek sentence mai dynamic value aur type dalwa skte hai jaise for example: I ordered {} cups of {} chai. yha par value assign ho jaegi using this aur, isko {} placeholder bolte hai.
 10. chai .len // to find the length of string.
+11. Raw String => r"andar jo bhi likhna ho" //iss say yeh hoga ki compiler ko confusion nhi hoga aur as it is stirng print krdega.
+12. containing questions we can ask in string.
+13. chai.append("oolong")// to add at the end
+
+## LIST IN PYTHON 
+- tea_Varieties= ["Green","Black","Oolong","White"]
+
+- tea_varieties[0:2]=["Elaichi","Adrak"] // Array k form mai pass krengay warna woh "L", "E","M", "O", "N" hi jaega 
+
+- tea_varieties[1:1] return karega [] lekin agar hum
+
+- tea_varieties[1:1]= ["test", "test"] kare toh 0 index k baad insert hoga.
+
+- tea_varieties.append("oolong") // to add at the end of the list.
+
+-  tea_varieties.pop() //last ka element return krdega list say aur list mutable hai toh remove bhi hojaega
+
+- tea_varieties.remove("") // keyword str remove krdega
+
+- tea_varities.insert(index, "string") //inserts at the specific index
+
+- tea_varieties.copy() // it is used to create a copy with different reference in memory.
+
+Function // Description
+
+1. append()
+
+Adds an element to the end of the list
+
+2. extend()
+
+Adds more than one element to the end of the list
+
+3. insert()
+
+Adds an element in between the list
+
+4. remove()
+
+Removes an elements from the list
+
+5. pop()
+
+Removes the last elements from the list
+
+6. slice()
+
+Prints a section of the list
+
+7. reverse()
+
+Reverses the order of the elements in a list
+
+8. len()
+
+Gives the length of a list
+
+9. min()
+
+Gives the minimum element (by value) of a list
+
+10. max()
+
+Gives the maximum element (by value) of a list
+
+11. count()
+
+Counts the number of copies in a list
+
+12. Concatenate
+
+Combines two list
+
+13. Multiply
+
+Multiplies the occurrence of elements in a list
+
+14. index()
+
+Gives index number of an element in the list
+
+15. sort()
+
+Sorts the list in ascending order
+
+16. clear()
+
+Clears every element in a list
+
+**List Comprehension**
+
+- Squared_num = [x**2 for x in range(10)] // that means sqaure krdo 1 say 10 tak k numbers ka
+
+
+
+
 
 
     
