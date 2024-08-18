@@ -272,6 +272,18 @@ default_value = "Unknown"
 my_dict = {key: default_value for key in keys}
 print(my_dict)  # Output: {'name': 'Unknown', 'age': 'Unknown', 'city': 'Unknown'}
 
+## TUPLES IN PYTHON 
+
+- In Python, tuples have only two built-in methods:
+
+- count(value): Returns the number of times value appears in the tuple.
+
+- index(value[, start[, end]]): Returns the index of the first occurrence of value in the tuple. The optional start and end parameters can limit the search to a specific range within the tuple.
+
+- Tuples are immutable, so they don't have methods for modifying their contents.
+
+- we can add tuples using t1 + t2 
+
 
 
 
