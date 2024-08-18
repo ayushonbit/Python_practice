@@ -213,6 +213,69 @@ Clears every element in a list
 
 - Squared_num = [x**2 for x in range(10)] // that means sqaure krdo 1 say 10 tak k numbers ka
 
+## DICTIONARY IN PYTHON 
+
+Functions Name // Descriptions
+
+1. get()
+Returns the value for the given key
+
+2. items()
+Return the list with all dictionary keys with values
+
+3. keys()
+Returns a view object that displays a list of all the keys in the dictionary in order of insertion
+
+4. pop()
+Returns and removes the element with the given key
+
+5. popitem()
+Returns and removes the key-value pair from the dictionary
+
+6. setdefault()
+Returns the value of a key if the key is in the dictionary else inserts the key with a value to the dictionary
+
+7. values()
+Returns a view object containing all dictionary values, which can be accessed and iterated through efficiently
+
+8. update()
+Updates the dictionary with the elements from another dictionary or an iterable of key-value pairs. With this method, you can include new data or merge it with existing dictionary entries
+
+9. clear()
+Removes all items from the dictionary
+
+10. copy()
+Returns a shallow copy of the dictionary
+
+11. fromkeys()
+Creates a dictionary from the given sequence
+
+- List inside list are called matrices.
+- Dict inside Dict also exist.
+student = {
+    "name": "Alice",
+    "age": 22,
+    "courses": {
+        "math": "A",
+        "science": "B+",
+        "literature": "A-"
+    },
+    "address": {
+        "city": "New York",
+        "zipcode": "10001"
+    }
+}
+
+**Default Value**
+keys = ["name", "age", "city"]
+default_value = "Unknown"
+my_dict = {key: default_value for key in keys}
+print(my_dict)  # Output: {'name': 'Unknown', 'age': 'Unknown', 'city': 'Unknown'}
+
+
+
+
+
 
 
 
