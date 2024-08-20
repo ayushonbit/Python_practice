@@ -284,9 +284,43 @@ print(my_dict)  # Output: {'name': 'Unknown', 'age': 'Unknown', 'city': 'Unknown
 
 - we can add tuples using t1 + t2 
 
+# Iteration tool
+
+- iteration tool is your for and comprehension
+- iteraable objets are your string list array and files.
+-  "_ _next_ _()"  yeh method use hota hai next krne k liye mtlb ki iteration m next element pe jane k liye aur hmesa iterator memory k first address pe point krta h, for example: <list_iterator object at 0x100d94910> , aur last mai stop iteration aaega
+
+- >>> f = open(iterable.py)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'iterable' is not defined
+>>> f = open("iterable.py")
+>>> f.readline()
+'import time\n'
+>>> 
+
+# SCOPES AND CLOSURES
+
+- Local and global memory areas wala concept
+- local scope is given precendence over global
 
 
+- Lexical scoping, also known as static scoping, is a key concept in Python that determines how variable names are resolved in nested functions. It refers to the scope (or visibility) of variables in relation to the position in the source code where they are defined. In Python, the scope of a variable is determined by the location of the variable's definition within the code, not by the location where the variable is called.
 
+- How Lexical Scoping Works in Python
+Python uses the LEGB rule to resolve variable names:
+
+1. L (Local): The innermost scope, which is the current function or method.
+2. E (Enclosing): The scope of any enclosing functions, moving outwards.
+3. G (Global): The module-level scope, i.e., the file in which the code is written.
+4. B (Built-in): The outermost scope, which contains Python's built-in functions and keywords.
+
+- we can use the keyword "global" to a variable to access a global value.
+
+**How Closures Work** // FACTORY FUNCTIONS
+When a function is defined inside another function, the inner function can access variables of the outer function. If the inner function is returned or passed around, it still "remembers" those variables from the outer function. This "remembering" is what makes it a closure.
+
+# Object Oriented programming  
 
 
 
