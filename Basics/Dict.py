@@ -1,3 +1,6 @@
+1. What are Python’s core data types?
+int, float, str, list, tuple, dict, set, bool, NoneType.
+
 chai_types = {"Masala":"spicy", "Ginger":"Zesty", "Green":"Mild"}
 print(chai_types)
 
